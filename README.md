@@ -17,6 +17,10 @@ This collector is delicate though and when it smashes into something, our young 
 gather any more mana for a little bit (AKA through his and his opponent's attacking turns).
 
 Gameplay:
+	WASD to move characters.
+	Mouse to Interact with Buttons.
+	J to Interact with NPC's.
+
 	First Screen: Story
 		The first screen you load into is the story screen. Feel free to wait for all of the
 		text that will eventually pass through, but if you don't feel like it, I will leave
@@ -46,6 +50,10 @@ Gameplay:
 			This phase is when your opponent attacks. He will always drop a sword straight down
 			on your head dealing you for the damage of his attack. The phase will end after
 			you receive the damage.
+
+			BUG: There is a little bug that I have been unable to work out, and that is as time goes
+			on you can glitch out of the walls. This is probably cuz I am overloading it and its lagging
+			out but I cannot find it, shouldn't be TOO detrimental to gameplay though.
 
 		These phases will cycle on forever adding to your points. The game only ends when you 
 		run out of health. If your opponent dies, another will take his place, but stronger.

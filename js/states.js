@@ -199,7 +199,6 @@ MainMenu.prototype = {
 		setCollision(1, 2);
 		setCollision(4, 4);
 		layer = map.createLayer('layer');
-		layer.debug = true;
 		layer.resizeWorld();
 
 		// Player
@@ -402,7 +401,6 @@ Town.prototype = {
 		setCollision(1, 2);
 		setCollision(4, 4);
 		layer = map.createLayer('layer');
-		layer.debug = true;
 		layer.resizeWorld();
 
 		// Player
@@ -602,6 +600,10 @@ var score = 0;
 var attacking = false;
 
 function continueDialog() {
+	if (score > highscore) {
+		highscore = score;
+		saveObject('highscore', highscore);
+	}
 	setText(dialogFont, 'You Lose ' + score);
 	chatText = addImage(chatBox.x + 20, chatBox.y + 20, dialogFont);
 	chatText.visible = true;
@@ -779,7 +781,6 @@ Arena.prototype = {
 
 		setCollision(1, 2);
 		layer = map.createLayer('layer');
-		layer.debug = true;
 		layer.resizeWorld();	
 
 		collector = addSprite(tileToCoord(1), tileToCoord(14), 'underground');
