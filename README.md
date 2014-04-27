@@ -73,6 +73,35 @@ Extra Notes and Reflection:
 	a game with it within 48 hours and I feel pretty proud of what I accomplished. Sure the code
 	is hacked together but there is only so much one can do in 48 hours.
 
+	Oh and almost forgot.
+	Story:
+		No one ever paid much attention,
+		to the young guy who walked in town,
+		what they did not know,
+		was that this young guy was about to blow,
+		He had been shunned,
+		His father murdered,
+		Something inside him stirred,
+		To rise to power,
+		To avenge his father,
+		To win the kings duel.
+
+		“All come to the king’s arena”,
+		Shouts the crier
+		“Leave thine pitiful lives,
+		fight for honor and glory,
+		and take the crown”.
+
+		They all laughed,
+		at his declaration to fight,
+		but did not stop him as it was his right,
+		However,
+		What they did not know,
+		About this young guy who was about to blow,
+		That as he went unnoticed,
+		He had a special skill,
+		That was about to give the crowd quite a thrill.
+
 	I feel pretty happy with the outcome though and I hope you guys will enjoy the game as well.
 
 - Ludusamo
