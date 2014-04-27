@@ -203,7 +203,7 @@ MainMenu.prototype = {
 		layer.resizeWorld();
 
 		// Player
-		player = addSprite(tileToCoord(39), tileToCoord(16), 'player');
+		player = addSprite(tileToCoord(0), tileToCoord(16), 'player');
 		addAnimation(player, 'walkingLeft', [5, 6, 7, 8], 15, true);
 		addAnimation(player, 'walkingRight', [0, 1, 2, 3], 15, true);
 		enableArcadePhysics(player);
@@ -627,22 +627,22 @@ function makeJunk() {
 }
 
 function summonFamiliar() {
-	if (familiar.isDead && player.mana >= 50) {
+	if (familiar.isDead && player.mana >= 75) {
 		familiar = addSprite(tileToCoord(5), tileToCoord(0), 'npc');
 		familiar.frame = 4;
-		familiar.health = 2;
+		familiar.health = (enemy.atk * 2) + (enemy.atk / 2);
 		enableArcadePhysics(familiar);
 		familiar.isDead = false;
 		friends.add(familiar);
-		score += 100;
+		score += 200;
 	}
 }
 
 function useAttack() {
 	if (player.mana >= 20) {
-		player.mana -= 2;
+		player.mana -= 20;
 		player.atk++;
-		score += 10;
+		score += 100;
 	}
 }
 
