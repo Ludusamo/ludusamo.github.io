@@ -57,6 +57,7 @@ Gameplay:
 
 		These phases will cycle on forever adding to your points. The game only ends when you 
 		run out of health. If your opponent dies, another will take his place, but stronger.
+		When your opponent dies you will also receive one health.
 
 		Scoring:
 			Scoring is done by action.
