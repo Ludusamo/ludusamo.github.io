@@ -629,7 +629,7 @@ function makeJunk() {
 }
 
 function summonFamiliar() {
-	if (familiar.isDead && player.mana >= 75) {
+	if (familiar.isDead && player.mana >= 75 && !attack.exists) {
 		familiar = addSprite(tileToCoord(5), tileToCoord(0), 'npc');
 		familiar.frame = 4;
 		familiar.health = (enemy.atk * 2) + (enemy.atk / 2);
@@ -641,7 +641,7 @@ function summonFamiliar() {
 }
 
 function useAttack() {
-	if (player.mana >= 20) {
+	if (player.mana >= 20 && !attack.exists) {
 		player.mana -= 20;
 		player.atk++;
 		score += 100;
@@ -649,7 +649,7 @@ function useAttack() {
 }
 
 function useMagic() {
-	if (player.mana >= 10) {
+	if (player.mana >= 10 && !attack.exists) {
 		attack = addSprite(tileToCoord(3), tileToCoord(7), 'npc');
 		attack.frame = 3;
 		enableArcadePhysics(attack);
@@ -716,18 +716,20 @@ function startAttackState() {
 }
 
 function startEnemyState() {
-	attackPlayer();
-	continueButton.visible = false;
-	currentState = 3;
+	if (!attack.exists) {
+		attackPlayer();
+		continueButton.visible = false;
+		currentState = 3;
 
-	game.time.events.add(2000, function() {
-		startCollectionState();
-		setText(stateFont, 'Fight Begin');
-		text = addImage(0, 0, stateFont);
-		text.scale.setTo(2, 2);
-		text.x = (800/ 2) - (text.width / 2);
-		text.y = 200;
-	}, this);
+		game.time.events.add(2000, function() {
+			startCollectionState();
+			setText(stateFont, 'Fight Begin');
+			text = addImage(0, 0, stateFont);
+			text.scale.setTo(2, 2);
+			text.x = (800/ 2) - (text.width / 2);
+			text.y = 200;
+		}, this);
+	}
 }
 
 function spawnEnemy(health, atk) {
