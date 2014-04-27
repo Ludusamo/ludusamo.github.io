@@ -649,7 +649,7 @@ function useAttack() {
 }
 
 function useMagic() {
-	if (player.mana >= 10 && !attack.exists) {
+	if (player.mana >= 10) {
 		attack = addSprite(tileToCoord(3), tileToCoord(7), 'npc');
 		attack.frame = 3;
 		enableArcadePhysics(attack);
