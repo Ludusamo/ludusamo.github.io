@@ -736,6 +736,7 @@ function spawnEnemy(health, atk) {
 	enableArcadePhysics(enemy);
 	foes.add(enemy);
 	player.health += 1;
+	continueButton.visible = false;
 	game.time.events.add(2000, function() {
 		startCollectionState();
 		setText(stateFont, 'Fight Begin');
