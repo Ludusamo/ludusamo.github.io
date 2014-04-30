@@ -629,7 +629,7 @@ function makeJunk() {
 }
 
 function summonFamiliar() {
-	if (familiar.isDead && player.mana >= 75 && !attack.exists) {
+	if (familiar.isDead && player.mana >= 75) {
 		familiar = addSprite(tileToCoord(5), tileToCoord(0), 'npc');
 		familiar.frame = 4;
 		familiar.health = (enemy.atk * 2) + (enemy.atk / 2);
@@ -641,7 +641,7 @@ function summonFamiliar() {
 }
 
 function useAttack() {
-	if (player.mana >= 20 && !attack.exists) {
+	if (player.mana >= 20) {
 		player.mana -= 20;
 		player.atk++;
 		score += 100;
