@@ -716,7 +716,6 @@ function startAttackState() {
 }
 
 function startEnemyState() {
-	if (!attack.exists) {
 		attackPlayer();
 		continueButton.visible = false;
 		currentState = 3;
@@ -729,7 +728,6 @@ function startEnemyState() {
 			text.x = (800/ 2) - (text.width / 2);
 			text.y = 200;
 		}, this);
-	}
 }
 
 function spawnEnemy(health, atk) {
