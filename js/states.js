@@ -629,7 +629,7 @@ function makeJunk() {
 }
 
 function summonFamiliar() {
-	if (familiar.isDead && player.mana >= 75) {
+	if (familiar.isDead && player.mana >= 75 && !attack.exists) {
 		familiar = addSprite(tileToCoord(5), tileToCoord(0), 'npc');
 		familiar.frame = 4;
 		familiar.health = (enemy.atk * 2) + (enemy.atk / 2);
@@ -641,7 +641,7 @@ function summonFamiliar() {
 }
 
 function useAttack() {
-	if (player.mana >= 20) {
+	if (player.mana >= 20 && !attack.exists) {
 		player.mana -= 20;
 		player.atk++;
 		score += 100;
@@ -716,6 +716,7 @@ function startAttackState() {
 }
 
 function startEnemyState() {
+	if (!attack.exists) {
 		attackPlayer();
 		continueButton.visible = false;
 		currentState = 3;
@@ -728,6 +729,7 @@ function startEnemyState() {
 			text.x = (800/ 2) - (text.width / 2);
 			text.y = 200;
 		}, this);
+	}
 }
 
 function spawnEnemy(health, atk) {
