@@ -16,7 +16,7 @@ Some things about me:
 
 - I am a student that is interested in computer science.
 - I spend time making video games for fun.
- - I also love playing them!
+- I also love playing them!
 - I love to create experiences that are fun for everyone!
 
 This post is also somewhat of a test. Everything on the site as of right now is still under construction, but hopefully progress will be made and this website will slowly become something special and unique.
