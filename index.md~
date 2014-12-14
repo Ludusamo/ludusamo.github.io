@@ -12,6 +12,7 @@ If you want to learn more about me and who I am, visit the [About](http://ludusa
     
 ## Posts
 To take a look at a couple of the posts that I have, you can start browsing here.
+
 ### This is my latest post:
 {% for post in site.posts limit:1 %}
 ... Show Post ...
