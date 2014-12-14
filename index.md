@@ -9,7 +9,7 @@ tagline: Supporting tagline
 This is Ludusamo's homepage. Feel free to peruse around and enjoy your time here!
 
 ### Me
-If you want to learn more about me and who I am, visit the [About](http://ludusamo.github.io/about) page.
+If you want to learn more about me and who I am, visit the [About](http://ludusamo.github.io/about.html) page.
     
 ## Sample Posts
 
