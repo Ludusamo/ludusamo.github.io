@@ -2,7 +2,7 @@
 layout: post
 title: "First Post"
 description: "My first post."
-category: personal 
+category: Personal 
 tags: [introduction, helloworld, personal]
 ---
 {% include JB/setup %}
