@@ -8,10 +8,10 @@ tagline: Supporting tagline
 ## Welcome!
 This is Ludusamo's homepage. Feel free to peruse around and enjoy your time here!
 
-### Me
-If you want to learn more about me and who I am, visit the [About](http://ludusamo.github.io/about) page.
+## Me
+If you want to learn more about me and who I am, visit the [About](http://ludusamo.github.io/about.html) page.
     
-## Sample Posts
+## Posts
 
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
