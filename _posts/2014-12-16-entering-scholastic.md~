@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Entering Scholastic"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
