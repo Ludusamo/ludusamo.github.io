@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Game Concept for Scholastic"
+description: ""
+category: GameDev 
+tags: [competition, game, development, design, concept]
+---
+{% include JB/setup %}
+
+##Where it began.
+Because the STEM challenge originally was a competition about STEM concepts, I thought about making a game about the science that I am currently most interested in: computer science. However, a couple issues arise:
+
+- Comp Sci games usually become modding games.
+- The programming becomes more prevalent than gameplay.
+- Can become frustrating very quickly.
+
+So, in the beginning I just scrapped the comp sci idea and just tried to find another idea. But then, an idea hit me. 
+
+##Concept 
+The concept I came up with spawns off of the Hacker series of game mechanics on [Three Hundred Game Mechanics](http://www.squidi.net/three/c_compgrid.php) by Sean Howard. I wanted to make a similar concept that would be inside a computer so kinda like this hack idea, but it would be following a little character which would be a representation of a program.
+
+!(Image of little blue animated)[res/GameArt/LittleBlue/littleblue.gif]
