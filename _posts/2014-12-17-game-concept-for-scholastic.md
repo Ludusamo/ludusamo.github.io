@@ -19,7 +19,7 @@ So, in the beginning I just scrapped the comp sci idea and just tried to find an
 ##Concept 
 The concept I came up with spawns off of the Hacker series of game mechanics on [Three Hundred Game Mechanics](http://www.squidi.net/three/c_compgrid.php) by Sean Howard. I wanted to make a similar concept that would be inside a computer so kinda like this hack idea, but it would be following a little character which would be a representation of a program.
 
-![Image of little blue animated](http://i.imgur.com/T1jyRjp.gifv)
+![Image of little blue animated](http://i.imgur.com/T1jyRJp.gifv)
 
 Forgive the programmer art but this is what the main character will look like (subject to change). He is the little blue program that asks for our help because he forgets who he is and we have to find the "address" in memory where his "memories" are. Along the way, I plan on teaching various concepts of computer science by helping fellow programs in this little world. Essentially, its my own spin on the amnesia trope that we often see in stories but with a little twist. The working title is The Little Blue Program.
 
