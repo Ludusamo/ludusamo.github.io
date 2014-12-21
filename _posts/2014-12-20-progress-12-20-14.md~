@@ -34,7 +34,7 @@ For all the programmers out there new to C++ game programming, I definitely sugg
 
 ## Tasks Completed
 Objects can be rendered and entities can move around now. Collision detection was also completed as shown below:
-![Collision detection demo.]()
+![Collision detection demo.](http://i.imgur.com/JGX6kmi.gif)
 It is smoother when it is actually playing, but for sake of demonstration I lowered the framerate. This turned out to be more of a problem than I thought but we got it done. Hopefully I can post some more programming and art progress tomorrow. For now I will sign off.
 
 - Ludusamo
