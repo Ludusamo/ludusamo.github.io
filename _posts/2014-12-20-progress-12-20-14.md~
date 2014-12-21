@@ -31,7 +31,7 @@ And that's when I discovered smart pointers. This solved all of my issues. Not o
 	entities.push_back(std::move(enemy));
 	entities[0]->render(); // Calls the Player's render function
 	entities[1]->render(); // Calls the Enemy's render function
-{{ "{% endhighlight "}}%}
+{% endhighlight %}
 For all the programmers out there new to C++ game programming, I definitely suggest learning about smart pointers. They will save you a lot of hassle!
 
 ## Tasks Completed
