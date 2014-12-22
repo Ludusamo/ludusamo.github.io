@@ -18,7 +18,7 @@ We have an adorable little walking animation now. Or at least I think it is ador
 ![Walking animation of little blue.](http://i.imgur.com/1phBikX.gif)
 
 I may add in more intermediate frames in the future, but for now, this will suffice. I also began implementing a tiled map which I had forgotten to do. Here is a little gif of that in action:
-![Tiledmap demo]()
+![Tiledmap demo](http://i.imgur.com/dvKojiC.gif)
 
 The collision detection for this has not been implemented yet, but it **_shouldn't_** be too difficult to do (which means I am going to run into a whole bunch of errors and spend a whole lot of time fixing a small mistake).
 
