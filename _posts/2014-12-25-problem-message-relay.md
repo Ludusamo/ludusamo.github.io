@@ -12,7 +12,7 @@ This is the one time that I will add an introduction as it is the first time I a
 To help myself improve, I will be solving more USACO problems in hopes that I become good enough to start advancing. This blog will hopefully motivate me to keep practicing problems. I will be doing problems either on the training pages or from past competitions.
 
 ## Problem
-This is a [link](http://www.usaco.org/index.php?page=viwproblem2&cpid=241) to the problem.
+This is a [link](http://www.usaco.org/index.php?page=viewproblem2&cpid=241) to the problem.
 
 ## Solution
 This problem was fairly straight forward. I could simply just loop through the number of cows and follow their message paths to determine whether it was going to be forced into a loop. If the number of steps taken (number of times message is forwarded) exceeds N, then I would know that the cow was loopy. There are definitely more elegant ways of completing the problem. However, since N can't exceed 1000, and with this solution the worst case is just O(N^2), I could just brute force it like this.
