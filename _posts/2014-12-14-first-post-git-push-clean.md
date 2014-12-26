@@ -23,4 +23,4 @@ This post is also somewhat of a test. Everything on the site as of right now is 
 
 Anyway, until next time!~
 
-Brendan
+- Brendan
