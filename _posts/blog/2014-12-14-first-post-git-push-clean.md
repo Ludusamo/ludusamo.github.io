@@ -9,10 +9,10 @@ categories:
 img: post03.jpg
 thumb: thumb03.jpg
 ---
-This is my first blog post
 
 ##Hello Everyone!
 This is my first blog post since creating this.
+<!
 
 The aim of this blog is to create a place where I can log and document my thoughts, ideas, and work. Definitely more of a personal development kind of thing. I hope to share things that I want to talk about on here.
 
