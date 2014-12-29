@@ -18,18 +18,30 @@ This was done by first completely loading the field into an array. However, I ha
 X = Empty
 O = Hay
 Actual Field:
-X X X X
-X O O X
-X O X X
+
 X X X X
 
+X O O X
+
+X O X X
+
+X X X X
+
+
 With Dummy Row and Columns:
+
 X X X X X X
+
 X X X X X X
+
 X X O O X X
+
 X X O X X X
+
 X X X X X X
+
 X X X X X X
+
 
 It may seem a bit overkill here, but it was necessary if the borders were completely filled.
 
