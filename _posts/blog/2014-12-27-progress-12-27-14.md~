@@ -1,17 +1,14 @@
 ---
 layout: post
 title: "Progress: 12 27 14"
-date: 2014-12-27 20:00:00
-category: 
-- blog
-- GameDev 
-img: post03.jpg
-thumb: logoV1.png
+description: ""
+category: GameDev 
+tags: [game, development, scholastic, competition, STEM, movement, animation, progress, log]
 ---
+{% include JB/setup %}
 
 ## Today's Progress
 So, I am starting to realize how fast the deadline is approaching. I gotta pick up my game fast... Today animations were completed.
-<!--more-->
 
 ## Issues
 No issues to report today besides minor issue with alpha appearing as black when rendered by OpenGL. Fixed simply by enabling OpenGL blending.

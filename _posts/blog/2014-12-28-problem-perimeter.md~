@@ -5,13 +5,11 @@ date: 2014-12-28 20:00:00
 category: 
 - blog
 - USACO
-img: post03.jpg
-thumb: logoV1.png
 ---
+{% include JB/setup %}
 
 ## Problem
 This is a [link](http://www.usaco.org/index.php?page=viewproblem2&cpid=243) to the problem.
-<!--more-->
 
 ## Solution
 This problem was considerably easier than the other problems in the same competition. I just simply utilized a recursive floodfill in order to determine the perimeter.
