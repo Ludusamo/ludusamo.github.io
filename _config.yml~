@@ -54,11 +54,9 @@ members:
   - name: Brendan Horng
     position: Owner
     text: Programmer
-    img: team01.jpg
+    img: horng_brendan.png
     social:
-      - title: email
-        url: brehor@bergen.org
-      - title: twitter
+      - title: facebook
         url: http://twitter.com/handle
     
 # Clients information. Shown on Home and About pages.
