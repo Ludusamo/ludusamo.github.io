@@ -14,7 +14,7 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 
 colors:  #in hex code if not noted else
   primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,204" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
@@ -40,8 +40,8 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
+    - Walder Drive, 415,
+    - 07417, New Jersey,
     - United States.
 email: ludusamo@gmail.com
 tel: 201-815-9136
@@ -67,10 +67,10 @@ clients:
     img: client01.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Looking to create fun interactive experiences as well as useful tools."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
+    message:
+    author:
 
