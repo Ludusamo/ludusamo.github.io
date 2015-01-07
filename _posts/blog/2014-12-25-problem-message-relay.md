@@ -6,7 +6,7 @@ category:
 - blog
 - USACO
 img: post02.jpg
-thumb: logoV2Thumb.png
+thumb: usaco_thumb.png
 ---
 
 ##Introduction
