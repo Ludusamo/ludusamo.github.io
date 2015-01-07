@@ -6,7 +6,7 @@ category:
 - blog
 - GameDev 
 img: post03.jpg
-thumb: logoV2Thumb.png
+thumb: littleblue_thumb.png
 ---
 
 ##Where it began.
