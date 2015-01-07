@@ -6,7 +6,7 @@ category:
 - blog
 - USACO 
 img: post03.jpg
-thumb: logoV2Thumb.png
+thumb: usaco_thumb.png
 ---
 
 ## Problem

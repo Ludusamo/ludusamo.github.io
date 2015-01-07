@@ -5,7 +5,7 @@ date: 2014-12-26 20:00:00
 category: 
 - blog
 - USACO 
-img: post03.jpg
+img: usaco.png
 thumb: usaco_thumb.png
 ---
 
