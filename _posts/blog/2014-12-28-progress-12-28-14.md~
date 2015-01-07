@@ -1,14 +1,17 @@
 ---
 layout: post
 title: "Progress: 12 28 14"
-description: ""
-category: GameDev
-tags: [game, development, scholastic, competition, STEM, pause, menu, dialog, animation, progress, log]
+date: 2014-12-28 20:00:00
+category: 
+- blog
+- GameDev 
+img: post03.jpg
+thumb: logoV1.png
 ---
-{% include JB/setup %}
 
 ## Today's Progress
 Oh boy did we get a lot done today. Not quite as much as I wanted to from yesterday, but quite a bit.
+<!--more-->
 
 ## Issues
 As far as coding goes, today went pretty smoothly. Threw a lot of things together in a short span of time, so if bugs arise in the future, well there is a good chance that they came from today. But that's an issue for another day. Today we gotta fight a fast approaching deadline.

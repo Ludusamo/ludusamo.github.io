@@ -7,7 +7,7 @@ category:
 - blog
 - GameDev 
 img: post03.jpg
-thumb: logoV1.png
+thumb: logoV2Thumb.png
 ---
 
 ##I am in!

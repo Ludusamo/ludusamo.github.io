@@ -1,14 +1,17 @@
 ---
 layout: post
 title: "Problem: Cow Crossings"
-description: ""
-category: USACO 
-tags: [USACO, problem, log, solution, practice]
+date: 2014-12-26 20:00:00
+category: 
+- blog
+- USACO 
+img: post03.jpg
+thumb: logoV1.png
 ---
-{% include JB/setup %}
 
 ## Problem
 This is a [link](http://www.usaco.org/index.php?page=viewproblem2&cpid=242) to the problem.
+<!--more-->
 
 ## Solution
 First task that I had to accomplish was to figure out how to determine if they were crossing or not. This ended up to be rather simple since their start and end Y positions are fixed. What it turns out to be is that one cow's path must "surround" the other to be crossing.

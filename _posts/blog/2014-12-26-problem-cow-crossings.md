@@ -5,7 +5,8 @@ date: 2014-12-26 20:00:00
 category: 
 - blog
 - USACO 
-tags: [USACO, problem, log, solution, practice]
+img: post03.jpg
+thumb: logoV2Thumb.png
 ---
 
 ## Problem

@@ -1,14 +1,17 @@
 ---
 layout: post
 title: "Progress: 12 26 14"
-description: ""
-category:  GameDev
-tags: [game, development, scholastic, competition, STEM, movement, platforming, jumping, gravity, progress, log]
+date: 2014-12-26 20:00:00
+category: 
+- blog
+- GameDev 
+img: post03.jpg
+thumb: logoV1.png
 ---
-{% include JB/setup %}
 
 ## Today's Progress
 Finally stopped being lazy enough to make some progress on this project. Today I moved along to implementing basic platforming elements. Our character is able to jump and walk around. Collision against the tiled map was also added.
+<!--more-->
 
 ## Issues
 Biggest issue today (and still is a small issue) is handling collision in such a way that allows the character to move separately on each axis.

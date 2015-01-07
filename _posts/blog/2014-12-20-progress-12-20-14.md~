@@ -5,11 +5,13 @@ date: 2014-12-20 20:00:00
 category: 
 - blog
 - GameDev 
+img: post03.jpg
+thumb: logoV1.png
 ---
-{% include JB/setup %}
 
 ## Today's Progress
 So I have begun building the little engine that I would be making the game on. The frameworks that I will be using are OpenGl and SDL which I will be writing my own bindings to. Today was mostly a lot of set up and most likely tomorrow will be too. But hopefully, by the end of tomorrow I will have basic platforming completed.
+<!--more-->
 
 ##Issues
 Before I moved to C++, I was a Java Game Programmer. So naturally one of the issues I first had/still have from the switch is handling memory. Today I discovered something wonderful that fixed a lot of the issues I was having. In order to have general list of entities, I wanted to do something like this:
