@@ -56,8 +56,8 @@ members:
     text: Programmer
     img: team01.jpg
     social:
-      - title: brehor@bergen.org
-        url: mailto:name@domain.com
+      - title: email
+        url: brehor@bergen.org
       - title: twitter
         url: http://twitter.com/handle
     
@@ -73,4 +73,4 @@ about: "Lorem Ipsum is simply dummy text of the printing and typesetting industr
 testimonial:
     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+
