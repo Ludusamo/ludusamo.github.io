@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Vita"
+date:   2014-12-13 21:00:00
+author: Brendan Horng
+categories:
+- project
+img: vita.jpg
+thumb: logoV2Thumb.png
+carousel:
+- vita1.jpg
+- vita2.jpg
+- vita3.jpg
+client: N/A
+website: ludumdare.com/compo/ludum-dare-28/?action=previe&uid=28874
+---
+####Vita
+Vita was a game created in 48 hours for the 28th [Ludum Dare](ludumdare.com/compo/) Game Competition. It was created using C++, SFML, Aseprite, SFXR, and Pixitracker. The theme for the competition was "You Only Get One".
+
+####Concept
+You are a person thrown into a crazy world with nothing but a vegetation growing rock, the world is a scary place with puzzles that lead you astray and scary enemies against you, but you must conquer the world of Vita. Using pseud random generation, the player embarks on a journey to face the unpredictable world, Vita.
