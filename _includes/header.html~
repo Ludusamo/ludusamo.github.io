@@ -2,9 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h3>Welcome to the Website of:</h3>
                 <h1>Ludusamo</h1>
-                <h5></h5>
+                <h5>Created by Brendan Horng</h5>
                 <h5></h5>				
             </div>
             <div class="col-lg-8 col-lg-offset-2 himg">
