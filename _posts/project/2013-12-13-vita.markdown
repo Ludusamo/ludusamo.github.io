@@ -1,10 +1,10 @@
 ---
 layout: project
 title:  "Vita"
-date:   2014-12-13 21:00:00
+date:   2013-12-13 21:00:00
 author: Brendan Horng
 categories:
-- project
+- Game
 img: vita.jpg
 thumb: logoV2Thumb.png
 carousel:
