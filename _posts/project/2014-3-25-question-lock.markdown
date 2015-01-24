@@ -8,9 +8,6 @@ categories:
 img: vita.jpg
 thumb: logoV2Thumb.png
 carousel:
-- vita1.jpg
-- vita2.jpg
-- vita3.jpg
 client: N/A
 website: https://google.com
 ---
