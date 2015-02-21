@@ -5,7 +5,7 @@ date: 2014-9-10 21:00:00
 author: Brendan Horng
 categories:
 - project
-img: LIVA-GUI.png
+img: vita.jpg
 thumb: logoV2Thumb.png
 carousel:
 - LIVA-GUI.png
