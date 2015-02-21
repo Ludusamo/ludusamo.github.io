@@ -24,7 +24,11 @@ As such, the system has disposable modules that can be cheaply launched at aster
 
 ####The Team
 Nina Arcot - Researcher
+
 Daniel Gu - Engineer
+
 Justin Shetty - Engineer
+
 Evan Shi - Engineer
+
 Brendan Horng - Programmer
