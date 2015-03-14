@@ -5,7 +5,7 @@ date: 2014-9-10 21:00:00
 author: Brendan Horng
 categories:
 - project
-img: vita.jpg
+img: nasa.jpg
 thumb: logoV2Thumb.png
 carousel:
 - LIVA-GUI.png
@@ -20,7 +20,8 @@ The beginning of the problem is the desire to mine asteroids for resources such 
 
 ######The System
 This system determines potential water content based on magnetic permeability of a given asteroid. A correlation can be drawn between the magnetic permeability and the water content of an asteroid.
-As such, the system has disposable modules that can be cheaply launched at asteroids to gain readings of the magnetic permeability. The module then sends the data wirelessly back to a receiver. This receiver then processes the information to determine potential water content.
+As such, the system has Magnetic Permeability Assesment Units (MPAUs) that can be cheaply launched at asteroids to gain readings of the magnetic permeability. The MPAU then sends the data wirelessly back to a receiver. This receiver then processes the information to determine potential water content.
+A visual application was constructed using Java and interfaced with the Arduino through a COMM port. Data visualization was done through this application.
 
 ####The Team
 Nina Arcot - Researcher
