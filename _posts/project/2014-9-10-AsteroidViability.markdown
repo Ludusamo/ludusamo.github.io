@@ -11,7 +11,6 @@ carousel:
 - LIVA-GUI.png
 - LIVA-Components.png 
 client: Bergen County Academies
-website: https://github.com/Ludusamo/Asteroid-Project
 ---
 ####Locating and Identifying Viable Asteroids
 This system was created by 5 students as a response to the [NASA EPIC Challenge](https://iced2013.wordpress.com/epic-challenge-2013/).
