@@ -29,7 +29,7 @@ Long story short, I spent the rest of the night programming the Intel Edison boa
 ## Conclusion
 This was our final product:
 
-![Final HackBCA product.](i.imgur.com/G2vE8uv.jpg)
+![Final HackBCA product.](https://i.imgur.com/G2vE8uv.jpg)
 
 It was a fantastic experience. I learned a lot that night, and I am pretty proud of the end result. Our team pulled through in the end and we had a pretty cool prize to show for it. I am definitely looking forward to my next Hackathon.
 
