@@ -11,7 +11,7 @@ thumb: logoV2Thumb.png
 ---
 
 ## HackBCA
-Oh boy, nothing turned out the way that we had originally planned. However, it was a lot of fun, and we ended up having a pretty cool product in the end. We ended up creating a pretty cool bow and arrow game with the Intel Edison board serving as the control scheme. This resulted in us winning Intel's subcategory for most creative, which one us each a [Dell Venue 8 Tablet](https://www.dell.com/us/p/dell-venue-8-3840-tablet/pd).
+Oh boy, nothing turned out the way that we had originally planned. However, it was a lot of fun, and we ended up having a pretty cool product in the end. We ended up creating a pretty cool bow and arrow game with the Intel Edison board serving as the control scheme. This resulted in us winning Intel's subcategory for most creative, which one us each a [Dell Venue 8 Tablet](http://www.dell.com/us/p/dell-venue-8-3840-tablet/pd).
 <!--more-->
 
 ## What went wrong
