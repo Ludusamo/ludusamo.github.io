@@ -6,7 +6,7 @@ category:
 - blog
 - hackathon 
 - Personal
-img: post03.jpg
+img: hackBCA.jpg
 thumb: logoV2Thumb.png
 ---
 
