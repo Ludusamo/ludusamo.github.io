@@ -10,12 +10,14 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: Ludusamo (Brendan Horng)
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/Ludusamo
+  - title: linkedin
+    url: https://www.linkedin.com/pub/brendan-horng/a1/109/948
   - title: facebook
     url:
   - title: github
