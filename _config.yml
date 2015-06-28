@@ -1,74 +1,30 @@
-### GENERAL SETTINGS ###
-
 # Site settings
-title: LUDUSAMO
-description: "Official Website of Ludusamo"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+title: Grayscale
+email: your-email@domain.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Your Website
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-
-colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
-  
-  
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
-    
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Walder Drive, 415,
-    - 07417, New Jersey,
-    - United States.
-email: contact@ludusamo.com
-tel: 201-815-9136
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
-# Members information. Shown on About page.
-members:
-  - name: Brendan Horng
-    position: Owner
-    text: Programmer
-    img: horng_brendan.png
-    social:
-      - title: facebook
-        url: http://facebook.com/brendan.horng
-    
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Looking to create fun interactive experiences as well as useful tools."
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: 
-    author:
-
+permalink: pretty
