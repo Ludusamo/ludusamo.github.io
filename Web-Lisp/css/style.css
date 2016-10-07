@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto';
+
+body {
+	background-color: #000000;
+}
+
+#web-header {
+	background: url('../res/intro-bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#brand-name {
+	color: white;
+	font-size: 10vw;
+	font-family: 'Open Sans';
+}
+
+#brand-subtitle {
+	color: white;
+	font-size: 3vw;
+	font-family: 'Open Sans';
+}
+
+.top-buffer {
+	margin-top: 30px;
+}
+
+.bottom-buffer {
+	margin-bottom: 5%;
+}
