@@ -9,14 +9,20 @@
   --text-color: #C0C0C0;
 }
 
-html[data-theme="dark"] .day-visible {
+.day-visible {
   opacity: 0;
-  pointer-events: none; /* Prevents selecting hidden text */
 }
 
-html[data-theme="light"] .night-visible {
+html[data-theme="light"] .day-visible {
+  opacity: 1;
+}
+
+.night-visible {
   opacity: 0;
-  pointer-events: none;
+}
+
+html[data-theme="dark"] .night-visible {
+  opacity: 1;
 }
 
 a { text-decoration: none; }
