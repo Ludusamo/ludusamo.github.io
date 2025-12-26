@@ -9,25 +9,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <day-night></day-night>
     <layout>
       <summary>
         <summary-header>
-          <brand class="brand1">Hi there</brand>, my name is <brand class="brand2">Brendan</brand>!
+          <brand class="brand1">Hi there!</brand>
+          <br>
+          My name is <brand class="brand2">Brendan</brand>!
         </summary-header>
 
-        <summary-content>
-          By day, I am a <brand class="brand2">software architect</brand>.<br>
-          I currently work for the hedge fund Capstone Investment Advisors.<br>
+        <summary-content class="day-visible">
+          By day &#x1F31E;, I am a <brand class="brand2">software architect</brand>.<br>
+          I currently work for the hedge fund <a href="https://www.capstoneco.com/">Capstone Investment Advisors</a>.<br>
           <ul>
             <li>Lead a cross-functional team of engineers to deliver <b>high-availability</b> trading systems.</li>
             <li>Drive firm-wide <b>system architecture</b> and technical standards.</li>
             <li>Architected <b>scalable data pipelines</b> optimized for <b>real-time</b> trading environments.</li>
           </ul>
 
-          Previously, I worked as a <brand class="brand2">software engineer</brand> at FactSet.
+          Previously, I worked as a <brand class="brand2">software engineer</brand> at <a href="https://www.factset.com/">FactSet</a>.
           <ul>
             <li>Engineered <b>scalable ETL frameworks</b> and bespoke internal tools for Portfolio Managers.</li>
             <li>Optimized data delivery systems <b>processing terabytes of information</b> daily.</li>
+          </ul>
+        </summary-content>
+        <summary-content class="night-visible">
+          By night &#x1F31D;, I am a <brand class="brand2">tinker and a gamer</brand>.<br>
+          Some of my hobbies include:
+          <ul>
+            <li>Working on side projects: I love tinkering and 3D Printing</li>
+            <li>Reading books: Big Brandon Sanderson fan</li>
+            <li>Playing video games: OSRS Player</li>
+          </ul>
+
+          Side Projects:
+          <ul>
+            <li><b>Home Lab</b>: Small Raspberry Pi Cluster running K3S</li>
+            <li><b>Angstrom</b>: Small scripting language built in C99</li>
+            <li><b>Smolstack</b>: My attempt at removing bloat from my software stack</li>
           </ul>
         </summary-content>
       </summary>
@@ -42,5 +61,6 @@
       </footer>
     </layout>
   </body>
+  <script src="day_night.js"></script>
   <script src="index.js"></script>
 </html>

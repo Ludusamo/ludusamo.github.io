@@ -1,8 +1,45 @@
+:root {
+  --header: #4A4E69;
+  --background: #F0F0F0;
+  --text-color: #000000;
+  --page-color-transition: background .2s ease, color .2s ease;
+}
+
+[data-theme="dark"] {
+  --header: #c9ada7;
+  --background: #11112a;
+  --text-color: #C0C0C0;
+}
+
+html[data-theme="dark"] .day-visible {
+  display: none;
+}
+
+html[data-theme="light"] .night-visible {
+  display: none;
+}
+
+a:link { color: blue; }
+a:visited { color: blue; } 
+a:hover { color: red; }    
+a:active { color: green; } 
+
+day-night {
+  position: fixed;
+  transform: scale(2);
+
+  top: 16px;
+  right: 56px;
+  align-items: center;
+}
+
 body, html {
-  background-color: #F0F0F0;
   margin: 0;
   padding: 0;
   font-family: 'Roboto Mono', monospace;
+  background: var(--background);
+  transition: transform 0.5s ease-in-out, var(--page-color-transition);
+  color: var(--text-color);
 }
 
 layout {
@@ -10,7 +47,7 @@ layout {
   grid-template: 
     [row1-start] "summary summary links" [row1-end]
     [row2-start] "footer footer footer" [row2-end]
-    / auto auto auto;
+    / auto auto 25%;
   margin: 10%;
   row-gap: 1rem;
 }
@@ -42,6 +79,7 @@ summary-header {
   flex-direction: row;
   font-size: 2rem;
   font-weight: bold;
+  padding-bottom: 1rem;
 }
 
 summary-content {
@@ -55,6 +93,12 @@ links {
   flex-direction: column;
   justify-content: space-evenly;
   border-left: 0.2rem solid;
+}
+
+navlink {
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 navlink {
@@ -131,6 +175,10 @@ navlink:hover {
   html {
     font-size: 14px;
   }
+  day-night {
+    transform: scale(1);
+    right: 36px;
+  }
 }
 
 @media all and (min-width:1100px) {
@@ -138,3 +186,4 @@ navlink:hover {
     font-size: 16px;
   }
 }
+
