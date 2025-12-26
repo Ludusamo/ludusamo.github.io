@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>Brendan's Website</title>
     <link rel="stylesheet" href="style.css" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -9,33 +10,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <day-night></day-night>
-    <layout>
-      <summary>
-        <summary-header>
-          <brand class="brand1">Hi there!</brand>
+    <day-night theme="light"></day-night>
+    
+    <main class="layout">
+      <section class="summary-section">
+        <header class="summary-header">
+          <span class="brand brand1">Hi there!</span>
           <br>
-          My name is <brand class="brand2">Brendan</brand>!
-        </summary-header>
+          My name is <span class="brand brand2">Brendan</span>!
+        </header>
 
-        <summary-content>
+        <div class="summary-content">
           <div class="day-visible">
-            By day &#x1F31E;, I am a <brand class="brand2">software architect</brand>.<br>
-            I currently work for the hedge fund <a href="https://www.capstoneco.com/">Capstone Investment Advisors</a>.<br>
+            By day &#x1F31E;, I am a <span class="brand brand2">software architect</span>.<br>
+            I currently work for the hedge fund <a href="https://www.capstoneco.com/" target="_blank" rel="noopener noreferrer">Capstone Investment Advisors</a>.<br>
             <ul>
               <li>Lead a cross-functional team of engineers to deliver <b>high-availability</b> trading systems.</li>
               <li>Drive firm-wide <b>system architecture</b> and technical standards.</li>
               <li>Architected <b>scalable data pipelines</b> optimized for <b>real-time</b> trading environments.</li>
             </ul>
 
-            Previously, I worked as a <brand class="brand2">software engineer</brand> at <a href="https://www.factset.com/">FactSet</a>.
+            Previously, I worked as a <span class="brand brand2">software engineer</span> at <a href="https://www.factset.com/" target="_blank" rel="noopener noreferrer">FactSet</a>.
             <ul>
               <li>Engineered <b>scalable ETL frameworks</b> and bespoke internal tools for Portfolio Managers.</li>
               <li>Optimized data delivery systems <b>processing terabytes of information</b> daily.</li>
             </ul>
           </div>
+          
           <div class="night-visible">
-            By night &#x1F31D;, I am a <brand class="brand2">tinker and a gamer</brand>.<br>
+            By night &#x1F31D;, I am a <span class="brand brand2">tinker and a gamer</span>.<br>
             Some of my hobbies include:
             <ul>
               <li>Working on side projects: I love tinkering and 3D Printing</li>
@@ -50,19 +53,22 @@
               <li><b>Smolstack</b>: My attempt at removing bloat from my software stack</li>
             </ul>
           </div>
-        </summary-content>
-      </summary>
-      <links>
-        <navlink class="link">Resume</navlink>
-        <navlink class="link" onclick="location.href='https://github.com/Ludusamo'">Github</navlink>
-        <navlink class="link" onclick="location.href='https://www.linkedin.com/in/brendan-horng-948109a1/'">LinkedIn</navlink>
-        <navlink class="link" onclick="window.location='mailto:brendan.horng@gmail.com'">Email</navlink>
-      </links>
+        </div>
+      </section>
+
+      <nav class="links">
+        <a class="nav-link" href="#">Resume</a>
+        <a class="nav-link" href="https://github.com/Ludusamo" target="_blank" rel="noopener noreferrer">Github</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/brendan-horng-948109a1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="nav-link" href="mailto:brendan.horng@gmail.com">Email</a>
+      </nav>
+
       <footer>
-        &copy; <year></year> Brendan Horng &#128900; License <a href="https://github.com/Ludusamo/ludusamo.github.io/blob/master/LICENSE">MIT</a>
+        &copy; <span id="copyright-year"></span> Brendan Horng &#128900; License <a href="https://github.com/Ludusamo/ludusamo.github.io/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a>
       </footer>
-    </layout>
+    </main>
+    
+    <script src="day_night.js"></script>
+    <script src="index.js"></script>
   </body>
-  <script src="day_night.js"></script>
-  <script src="index.js"></script>
 </html>
